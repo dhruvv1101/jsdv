@@ -29,4 +29,12 @@ console.table([score1,score2,score3,score4,score5,score6,score7,score8,score9]);
 │ 5       │ 'number'    │
 │ 6       │ 'string'    │
 │ 7       │ 'boolean'   │
-│ 8       │ 'boolean' */
+│ 8       │ 'boolean' 
+
+comparision
+=== strict check both must be same datatype
+number to number comparision are fine
+string to number may result ambigous output
+null greater equal compared to 0 gives true
+while == and less than gives false
+so on so forth*/
