@@ -38,3 +38,48 @@ string to number may result ambigous output
 null greater equal compared to 0 gives true
 while == and less than gives false
 so on so forth*/
+
+/*
+Datatypes:
+-----------------------------------
+Primitive:
+1)strings
+2)null
+3)undefined
+4)boolean
+5)number
+6)symbol
+7)bigInt
+-----------------------------------------
+Non-primitive:
+1)Array
+2)Object
+3)Function
+--------------------------------------------------
+Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object
+
+
+--------------------------------------
+datatypes are based on memory allocation
+Primitive datatypes->  call by value (string,number,boolean,null,undefined,BigInt,symbol) ->Stack memory(copy milegi
+ changes real data me nahi honge)
+
+Reference/Non primitive data types -> call by reference ( array,object, function) -> heap memory(reference milega 
+agar naya object banake k usme prev value dalke value chcange hogi toh real data me bhi value change hojaegi)
+
+JavaScript is a dynamically typed language. This means that you don't need to specify
+ the data type of a variable when you declare it.
+*/
